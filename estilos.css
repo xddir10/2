@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(143, 24, 87);
+}
+
+/* Estilo para las líneas divisorias */
+hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.5); /* Línea blanca semitransparente */
+    margin: 5px auto;
+    width: 70%;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* 🌟 ESTILOS DEL RECUADRO (Contenedor de P y IMG) 🌟 */
+.contenido-recuadro {
+    width: 60%; /* Define el ancho del recuadro principal */
+    margin: 20px auto; /* Centra el recuadro horizontalmente */
+    
+    /* Estilos Visuales */
+    border: 3px solid rgb(255, 255, 255); /* Borde blanco */
+    padding: 20px; 
+    background-color: #f0f8ff; /* Fondo del recuadro */
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    
+    text-align: center; /* Centra la imagen */
+}
+
+/* Modificaciones para el PÁRRAFO (.texto) */
+.texto {
+    color: rgb(143, 24, 87);
+    text-align: justify; /* Alineación justificada para el texto */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 20px; /* Espacio después del texto y antes de la imagen */
+}
+
+/* Estilos para la IMAGEN (dentro del recuadro) */
+.contenido-recuadro img {
+    max-width: 50%; /* La imagen se ajusta al ancho del recuadro */
+    height: auto; 
+    border-radius: 8px; 
+    margin-top: 15px; 
+    width: 200px;
+    width: 30%;
+    text-align: left;
+}
